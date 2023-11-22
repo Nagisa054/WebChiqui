@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 
+    box-sizing: border-box;
     scrollbar-width: thin;
 }
 
@@ -52,7 +53,6 @@ main section {
     margin: auto;
 
 }
-
 
 main section h1 {
     width: 100%;
