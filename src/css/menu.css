@@ -1,0 +1,59 @@
+#zona-menu {
+    width: 95%;
+    height: auto;
+
+    margin: 3vh auto;
+
+    position: -webkit-sticky;
+    position: sticky;
+
+    top: 0;
+
+    border-top: 10px double #ff1f00;
+
+    background-color: white;
+
+    overflow: hidden;
+}
+
+#menu {
+    display: flex;
+
+    list-style: none;
+
+    text-align: center;
+    align-items: center;
+
+    font-size: 19px;
+
+    overflow: auto;
+}
+
+.opcion-munu {
+    min-width: 180px;
+    min-height: 45px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 1.5rem 0 1.5rem;
+
+} 
+
+.opcion-munu a {
+    color: rgb(85, 85, 85);
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.opcion-munu:hover{
+    border-bottom:solid 1px #ff1f00;
+    
+    a{ 
+        color: black;
+    }
+    
+}
