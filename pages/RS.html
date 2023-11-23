@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="src/css/template.css">
-    <link rel="stylesheet" href="src/css/menu.css">
+    <title>Restos Siglo XXI</title>
+    <link rel="stylesheet" href="../src/css/template.css">
+    <link rel="stylesheet" href="../src/css/menu.css">
+    <link rel="stylesheet" href="../src/css/RS_grid.css">
+    <link rel="stylesheet" href="../src/css/RS_imgs.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -17,11 +19,15 @@
 
 <body>
     <header><!-- Logo o Titulo -->
-        <img src="src/img/LogoCorto.jpg" alt="Minchua">
+        <img src="../src/img/LogoCorto.jpg" alt="Minchua">
     </header>
 
     <nav id="zona-menu"><!-- menú -->
         <ul id="menu">
+            <li class="opcion-munu opcion-munu--show">
+                <a href="../index.html" class="menu_link menu_link--inside">Inicio</a>
+
+            </li>
             <li class="opcion-munu opcion-munu--show">
                 <a href="pages/TPC.html" class="menu_link menu_link--inside">Teorias Pedagógicas Contemporaneas
                     <svg xmlns="http://www.w3.org/2000/svg" height="1.5em"
@@ -46,36 +52,6 @@
                             y promovido un enfoque más interactivo y dinámico en el aula.
                         </p>
                         <a href="pages/TPC.html">
-                            <button type="button" class="btn btn-outline-success">Ver mas</button>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li class="opcion-munu opcion-munu--show"">
-                <a href=" index.html" class="menu_link menu_link--inside">Pedagodos Contemporáneos
-                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em"
-                    viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                    <style>
-                        svg {
-                            fill: #c80000
-                        }
-                    </style>
-                    <path
-                        d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
-                </svg>
-                </a>
-                <ul calss="desplegable">
-                    <li class="desplegable-item">
-                        <p class="desplegable-item-texto">
-                            Celestin Freinet, Maria Montessori y John Dewey son
-                            destacados pedagogos cuyas contribuciones han dejado
-                            una profunda huella en la historia de la educación.
-                            Cada uno de ellos desarrolló enfoques innovadores que
-                            desafiaron las convenciones de su época y que continúan
-                            influyendo en la forma en que concebimos la enseñanza
-                            y el aprendizaje en la actualidad.
-                        </p>
-                        <a href="index.html">
                             <button type="button" class="btn btn-outline-success">Ver mas</button>
                         </a>
                     </li>
@@ -178,52 +154,63 @@
 
     <main><!-- Contenido -->
         <section>
-            <h1>BIENVENIDO</h1>
-            <p>
-                Te damos la bienvenida a nuestra
-                plataforma especializada en descubrir
-                las últimas tendencias educativas.
-            </p>
-            <br>
-            <p>
-                Sumérgete en el intrigante mundo de la
-                educación del siglo XXI a través de
-                nuestra plataforma dedicada a las pedagogías
-                contemporáneas. Exploramos a fondo las
-                prácticas pedagógicas modernas que están
-                transformando la forma en que aprendemos
-                y enseñamos.
-            </p>
-            <br>
-            <p>
-                Desde cuadros comparativos que resaltan
-                diferencias clave, hasta infografías que
-                visualizan conceptos complejos, y desde cómics
-                que hacen que la educación sea accesible
-                y divertida hasta información detallada
-                sobre las últimas tendencias educativas,
-                nuestra página es tu recurso central para
-                comprender y apreciar las diversas
-                metodologías pedagógicas en la era actual.
-            </p>
-            <br>
-            <p>
-                Prepárate para explorar, aprender e inspirarte
-                mientras desentrañamos los misterios de las
-                pedagogías contemporáneas.
-            </p>
-            <br>
-            <p style="text-align: center;">
-                <b>¡Bienvenido a la revolución educativa!</b>
+            <article>
+                <h1>Retos Siglo XXI</h1>
                 <br>
-                Tu viaje hacia la comprensión de las pedagogías contemporáneas comienza aquí.
-            </p>
+                <p>
+                    En el vibrante escenario de la
+                    relación pedagógica entre el
+                    docente y el estudiante, a
+                    menudo se tejen situaciones
+                    cotidianas que destilan tanto
+                    humor como sabiduría. En esta
+                    tira cómica, nos sumergimos en un
+                    aula donde las interacciones
+                    entre el profesor y sus pupilos
+                    revelan las complejidades, risas
+                    y sorpresas que caracterizan
+                    este dinámico vínculo educativo.
+                </p>
+                <br>
+                <div id="contenedor-imagenes">
+                    <img class="caricatura" id="img1" src="/src/img/RS/1 caricatura.png" alt="" srcset="">
+                    <img class="caricatura" id="img2" src="/src/img/RS/2 caricatura.png" alt="" srcset="">
+                    <img class="caricatura" id="img3" src="/src/img/RS/3 caricatura.png" alt="" srcset="">
+                </div>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <h2>Documentos</h2>
+            <div class="doc_container">
+
+                <a href="../src/img/RS/1 caricatura.png" target="_blank" id="doc-1">
+                    <div class="documento">
+                        CARICATURA 1
+                    </div>
+                </a>
+                
+                <a href="../src/img/RS/2 caricatura.png" target="_blank" id="doc-2">
+                    <div class="documento">
+                        CARICATURA 2
+                    </div>
+                </a>
+
+                <a href="../src/img/RS/3 caricatura.png" target="_blank" id="doc-3">
+                    <div class="documento">
+                        CARICATURA 3
+                    </div>
+                </a>
+
+                <a href="../src/docs/RS/4 MAPA CONCEPTUAL Y PREGUNTAS GENERADORAS.pdf" target="_blank" id="doc-4">
+                    <div class="documento">
+                        MAPA CONCEPTUAL</div>
+                </a>
+            </div>
         </section>
         <br>
     </main>
-
     <br>
-
     <footer><!-- derechos de autor,  integrantes del grupo, otros links, etc -->
         <table>
             <thead>
