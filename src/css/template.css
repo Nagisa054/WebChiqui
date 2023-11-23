@@ -54,7 +54,7 @@ main section {
 
 }
 
-main section h1 {
+main section h1, h2 {
     width: 100%;
 
     padding: 3% 0 2% 0;
