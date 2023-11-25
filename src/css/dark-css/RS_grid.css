@@ -10,11 +10,11 @@
 
 .documento {
     width: 29vw;
+    height: 21vw;
     min-width: 64px;
-    max-width: 3450px;
-    height: 200px;
     min-height: 64px;
-    max-height: 450px;
+    max-width: 3450px;
+    max-height: 3450px;
 
     display: flex;
     justify-content: center;
@@ -27,13 +27,13 @@
 
     border: solid 1px;
     overflow: hidden;
+    color: cadetblue;
 }
 
 #doc-1 {
     grid-column: 1;
     grid-row: 1;
 
-    color: rgb(85, 85, 85);
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
@@ -44,7 +44,6 @@
     grid-column: 3;
     grid-row: 1;
 
-    color: rgb(85, 85, 85);
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
@@ -56,7 +55,6 @@
     grid-column: 5;
     grid-row: 1;
 
-    color: rgb(85, 85, 85);
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
@@ -68,7 +66,6 @@
     grid-column: 1;
     grid-row: 2;
 
-    color: rgb(85, 85, 85);
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
@@ -78,25 +75,25 @@
 
 
 #doc-1 div {
-    background-image: url("../img/RS/1\ caricatura.png");
+    background-image: url("../../img-darck/RS/1\ caricatura.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #doc-2 div {
-    background-image: url("../img/RS/2\ caricatura.png");
+    background-image: url("../../img-darck/RS/2\ caricatura.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #doc-3 div {
-    background-image: url("../img/RS/3\ caricatura.png");
+    background-image: url("../../img-darck/RS/3\ caricatura.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #doc-4 div {
-    background-image: url("../img/RS/4\ MAPA\ CONCEPTUAL\ Y\ PREGUNTAS\ GENERADORAS_page-0001.jpg");
+    background-image: url("../../img-darck/RS/4\ MAPA\ CONCEPTUAL\ Y\ PREGUNTAS\ ETC.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -105,23 +102,23 @@
 #doc-1:hover div {
     transform: scale(101%);
     font-size: 1.6rem;
-    color: rgb(70, 0, 0);
+    color: rgba(255, 130, 90)
 }
 
 #doc-2:hover div {
     transform: scale(101%);
     font-size: 1.6rem;
-    color: rgb(70, 0, 0);
+    color: rgba(255, 130, 90)
 }
 
 #doc-3:hover div {
     transform: scale(101%);
     font-size: 1.6rem;
-    color: rgb(70, 0, 0);
+    color: rgba(255, 130, 90)
 }
 
 #doc-4:hover div {
     transform: scale(101%);
     font-size: 1.6rem;
-    color: rgb(70, 0, 0);
+    color: rgba(255, 130, 90)
 }
