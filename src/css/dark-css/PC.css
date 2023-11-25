@@ -10,11 +10,11 @@
 
 .documento {
     width: 29vw;
+    height: 21vw;
     min-width: 64px;
-    max-width: 3450px;
-    height: 200px;
     min-height: 64px;
-    max-height: 450px;
+    max-width: 3450px;
+    max-height: 3450px;
 
     display: flex;
     justify-content: center;
@@ -27,6 +27,7 @@
 
     border: solid 1px;
     overflow: hidden;
+    color: cadetblue;
 }
 
 #doc-1 {
@@ -47,7 +48,7 @@
     grid-row: 1;
 
     color: rgb(85, 85, 85);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
     justify-content: center;
@@ -104,41 +105,41 @@
 
 #doc-1 div {
 
-    background-image: url("../img/PC/1\ FRASE\ MARIA\ MONTESSORI.jpg");
+    background-image: url("../../img-darck/PC/1\ FRASE\ MARIA\ MONTESSORI.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #doc-2 div {
-    background-image: url("../img/PC/2\ CARICATURA\ MARIA\ MONTESSORI.jpg");
+    background-image: url("../../img-darck/PC/2\ caricatura\ montesori.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #doc-3 div {
 
-    background-image: url("../img/PC/3\ Frase\ freinet_pages-to-jpg-0001.jpg");
+    background-image: url("../../img-darck/PC/3\ frase\ freinet.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #doc-4 div {
 
-    background-image: url("../img/PC/4\ caricatura\ freinet_page-0001.jpg");
+    background-image: url("../../img-darck/PC/4\ caricatura\ freinet_.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #doc-5 div {
 
-    background-image: url("../img/PC/5\ Frase\ Jhon\ Dewey_page-0001.jpg");
+    background-image: url("../../img-darck/PC/5\ frase\ dewey.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #doc-6 div {
 
-    background-image: url("../img/PC/6\ Caricatura\ Jhon\ Dewey_page-0001.jpg");
+    background-image: url("../../img-darck/PC/6\ Caricatura\ Jhon\ Dewey.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -146,36 +147,36 @@
 #doc-1:hover div {
     transform: scale(101%);
     font-size: 1.6rem;
-    color: rgb(70, 0, 0);
+    color: rgba(255, 130, 90);
 }
 
 #doc-2:hover div {
     transform: scale(101%);
     font-size: 1.6rem;
-    color: rgb(70, 0, 0);
+    color: rgba(255, 130, 90);
 }
 
 #doc-3:hover div {
     transform: scale(101%);
     font-size: 1.6rem;
-    color: rgb(70, 0, 0);
+    color: rgba(255, 130, 90);
 }
 
 #doc-4:hover div {
     transform: scale(101%);
     font-size: 1.6rem;
-    color: rgb(70, 0, 0);
+    color: rgba(255, 130, 90);
 }
 
 #doc-5:hover div {
     transform: scale(101%);
     font-size: 1.6rem;
-    color: rgb(70, 0, 0);
+    color: rgba(255, 130, 90);
 }
 
 #doc-6:hover div {
     transform: scale(101%);
     font-size: 1.6rem;
-    color: rgb(70, 0, 0);
+    color: rgba(255, 130, 90);
 
 }
