@@ -127,6 +127,7 @@ footer table tfoot{
 footer img{
     width: 9rem;
     margin: auto;
+    margin-top: 15px;
 }
 
 
