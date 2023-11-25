@@ -94,3 +94,31 @@ footer table {
     font-size: 15px;
     color: lightgray;
 }
+
+footer table tfoot{
+    font-size: 1.1em;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+footer img{
+    width: 9rem;
+    margin: auto;
+}
+
+@media(max-width:900px){
+    footer{
+        display: block;
+    }
+    footer table {
+        width: 90%;;
+        margin: auto;
+    }
+    footer table td{
+        border-bottom: solid 1px rgba(240, 128, 128);
+    }
+    footer img{
+        display: block;
+        margin: 15px auto;
+    }
+}
