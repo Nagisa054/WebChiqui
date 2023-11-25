@@ -10,11 +10,11 @@
 
 .documento {
     width: 29vw;
+    height: 21vw;
     min-width: 64px;
-    max-width: 3450px;
-    height: 200px;
     min-height: 64px;
-    max-height: 450px;
+    max-width: 3450px;
+    max-height: 3450px;
 
     display: flex;
     justify-content: center;
@@ -27,13 +27,13 @@
 
     border: solid 1px;
     overflow: hidden;
+    color: cadetblue;
 }
 
 #doc-1 {
     grid-column: 1;
     grid-row: 1;
 
-    color: rgb(85, 85, 85);
     font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
@@ -44,7 +44,6 @@
     grid-column: 3;
     grid-row: 1;
 
-    color: rgb(85, 85, 85);
     font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
@@ -56,7 +55,6 @@
     grid-column: 5;
     grid-row: 1;
 
-    color: rgb(85, 85, 85);
     font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
@@ -68,7 +66,6 @@
     grid-column: 1;
     grid-row: 2;
 
-    color: rgb(85, 85, 85);
     font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
@@ -78,25 +75,25 @@
 
 
 #doc-1 div {
-    background-image: url("../img/SPE/1\ COMERCIAL.jpg");
+    background-image: url("../../img-darck/SPE/comercial.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #doc-2 div {
-    background-image: url("../img/SPE/2\ SABER\ SER\ JAIR.jpg");
+    background-image: url("../../img-darck/SPE/saber\ ser\ jair.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #doc-3 div {
-    background-image: url("../img/SPE/3\ SABER\ SER\ CAMILO.jpg");
+    background-image: url("../../img-darck/SPE/saber\ ser\ camilo.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #doc-4 div {
-    background-image: url("../img/SPE/4\ SABER\ SER\ LUCIA.jpg");
+    background-image: url("../../img-darck/SPE/saber\ ser\ lucia.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
