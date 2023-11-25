@@ -109,6 +109,7 @@ footer img{
 
 @media(max-width:900px){
     footer{
+        height: auto;
         display: block;
     }
     footer table {
