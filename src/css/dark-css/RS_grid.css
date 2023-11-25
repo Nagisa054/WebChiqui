@@ -25,9 +25,9 @@
     justify-items: center;
     align-items: center;
 
-    border: solid 1px;
+    border: none;
     overflow: hidden;
-    color: cadetblue;
+    color: white;
 }
 
 #doc-1 {
