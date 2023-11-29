@@ -41,7 +41,7 @@
 
 #doc-1 div{
     
-    background-image:url("../../img-darck/TPC/1\ Folleto.png");
+    background-image:url("../../img/dark/TPC/1\ Folleto.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -58,7 +58,7 @@
 }
 
 #doc-2 div{
-    background-image: url("../../img-darck/TPC/2\ cuadro\ comparativo.png");
+    background-image: url("../../img/dark/TPC/2\ cuadro\ comparativo.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -74,7 +74,7 @@
 
 }
 #doc-3 div{
-    background-image: url("../../img-darck/TPC/3\ presentacion.png");
+    background-image: url("../../img/dark/TPC/3\ presentacion.png");
     background-size: cover;
     background-repeat: no-repeat;
 }

@@ -27,7 +27,7 @@ header {
     justify-content: center;
 
     overflow: hidden;
-    background-image: url("../../img/fondo\ 2nicio.jpg");
+    background-image: url("../../img/dark/baner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -92,7 +92,7 @@ footer {
     align-items: center;
     justify-content: left;
     
-    background-image: url("../../img-darck/footer-texture5.jpg");
+    background-image: url("../../img/dark/footer-texture5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

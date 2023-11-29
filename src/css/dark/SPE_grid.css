@@ -34,7 +34,7 @@
     grid-column: 1;
     grid-row: 1;
 
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
 
@@ -44,7 +44,7 @@
     grid-column: 3;
     grid-row: 1;
 
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
     justify-content: center;
@@ -55,7 +55,7 @@
     grid-column: 5;
     grid-row: 1;
 
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
     justify-content: center;
@@ -66,7 +66,7 @@
     grid-column: 1;
     grid-row: 2;
 
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
     justify-content: center;
@@ -75,25 +75,25 @@
 
 
 #doc-1 div {
-    background-image: url("../../img-darck/RS/1\ caricatura.png");
+    background-image: url("../../img/dark/SPE/comercial.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #doc-2 div {
-    background-image: url("../../img-darck/RS/2\ caricatura.png");
+    background-image: url("../../img/dark/SPE/saber\ ser\ jair.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #doc-3 div {
-    background-image: url("../../img-darck/RS/3\ caricatura.png");
+    background-image: url("../../img/dark/SPE/saber\ ser\ camilo.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #doc-4 div {
-    background-image: url("../../img-darck/RS/4\ MAPA\ CONCEPTUAL\ Y\ PREGUNTAS\ ETC.png");
+    background-image: url("../../img/dark/SPE/saber\ ser\ lucia.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -101,24 +101,24 @@
 
 #doc-1:hover div {
     transform: scale(101%);
-    font-size: 1.6rem;
-    color: rgba(255, 130, 90)
+    font-size: 2.6rem;
+    color: rgb(190, 131, 139);
 }
 
 #doc-2:hover div {
     transform: scale(101%);
-    font-size: 1.6rem;
-    color: rgba(255, 130, 90)
+    font-size: 2.6rem;
+    color: rgb(190, 131, 139);
 }
 
 #doc-3:hover div {
     transform: scale(101%);
-    font-size: 1.6rem;
-    color: rgba(255, 130, 90)
+    font-size: 2.6rem;
+    color: rgb(190, 131, 139);
 }
 
 #doc-4:hover div {
     transform: scale(101%);
-    font-size: 1.6rem;
-    color: rgba(255, 130, 90)
+    font-size: 2.6rem;
+    color: rgb(190, 131, 139);
 }
